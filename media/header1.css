@@ -1,0 +1,114 @@
+/*
+*{
+	margin: 0;
+	padding: 0;
+}
+*/
+
+
+.header-container {
+	width: 100%;
+	height: 20vh;
+	background: #F6F6E9;
+	display: flex;
+
+}
+
+.logo-url-container {
+	width: 97.5%;
+}
+
+
+.logo-url-container img {
+	  width: 17%;
+	  height: 14vh;
+    padding-left: 565px;
+	
+}
+
+.url-container{
+	height: 4vh;
+	padding-top: 8px;
+	padding-left: 440px;
+}
+
+.url-container a{
+	text-decoration: none;
+	color: black;
+	margin-top: 5px;
+	padding-left: 25px ;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 300,regular;
+}
+
+.url-container a:hover{
+    color: #5D8359;
+}
+
+.url-container a:active{
+	color: #5D8359;
+}
+
+.active {
+	text-decoration: underline;
+	color: #5D8359 !important;
+	font-weight: 900;
+}
+
+/* icons */
+.icons-container {
+	width: 2%;
+	text-align: center;
+}
+
+
+.icons-container .fa {
+  text-decoration: none;
+}
+
+.icons-container .fa:hover {
+  opacity: 0.7;
+}
+
+
+.icons-container .fa-facebook {
+  color: gray;
+  padding-left: 2px;
+  padding-top: 8px;
+  padding-bottom: 15px;
+}
+
+.icons-container .fa-twitter {
+  color: gray;
+  padding-bottom: 15px;
+}
+
+.icons-container .fa-instagram {
+  color: gray;
+  padding-bottom: 15px;
+}
+
+/* ------- JAVASCRIPT ----------*/
+.backToTop {
+	opacity: 0.5;
+}
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 20px;
+	border: none;
+	outline: none;
+	background-color: #5D8359;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 100%;
+  }
+  
+  #myBtn:hover {
+	background-color: #555;
+  }

@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+	padding: 0;
+}
+
+.body-container {
+    width: 100%;
+    height: 220vh;
+}
+
+
+.recommended-container{
+    width: 100%;
+    height: 220vh;
+    background-color: #F2F4F7;
+    margin: auto;
+}
+
+.recommended-articles{
+    width: 25%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.recommended-articles h1{
+    font-family: Alfa Slab One;
+    font-weight: 500;
+    font-size: 45px;
+    padding-top: 50px;
+    color: black;
+    text-align: center;
+    border-bottom: 5px solid #5D8359;
+    padding-bottom: 5px;
+}
+
+
+.article-box{
+    width: 65%;
+    height: 30vh;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.article-box a{
+    text-decoration: none;
+    outline: none;
+}
+
+
+.article-box .article-picture{
+    width: 32%;
+    height: 100%;
+}
+
+.article-box .article-picture img{
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.article-box .article-text{
+    width: 68%;
+    height: 100%;
+}
+
+.article-text .article-dates{
+    font-family: Inter;
+    font-size: 11px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #667085;
+}
+
+.article-text .article-title{
+    font-family: Libre Baskerville;
+    font-size: 21px;
+    margin-bottom: 10px;
+    color: #1D2939;
+    width: 95%;
+}
+
+.article-text .article-intro{
+    font-family: Inter;
+    font-size: 13px;
+    margin-bottom: 20px;
+    color: #475467;
+    width: 95%;
+}
+
+
+.pages{
+    width: 13%;
+    height: 7vh;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    display: flex;
+}
+
+.pages p{
+    margin-top: 15px;
+    font-family: josefin sans;
+    font-size: 20px;
+}
+
+
+
+#left {
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: #5D8359;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10%;
+    margin-right: 40px;
+  }
+  
+  #left:hover {
+    background-color: #555;
+  }
+
+  #right {
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: #5D8359;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10%;
+    margin-left: 40px;
+  }
+  
+  #right:hover {
+    background-color: #555;
+  }

@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+	padding: 0;
+}
+
+.body-container {
+    width: 100%;
+    height: 110vh;
+
+}
+
+.community{
+    width: 25%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.community h1{
+    font-family: Alfa Slab One;
+    font-weight: 500;
+    font-size: 45px;
+    padding-top: 50px;
+    color: black;
+    text-align: center;
+    border-bottom: 5px solid #5D8359;
+    padding-bottom: 5px;
+}
+
+.container-com{
+    width: 95%;
+    height: 70vh;
+    margin-top: 100px;
+    display: flex;
+    margin: auto;
+}
+
+
+.box{
+    width: 40%;
+    height: 60vh;
+    margin: auto;
+}
+
+
+.box .picture{
+    width: 100%;
+    height: 100%;
+}
+
+.box .picture img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.paragraph-container{
+    width: 50%;
+    height: 85vh;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.paragraph-container p{
+    font-family: Inter;
+    font-weight: 400,regular;
+    color: #1D2939;
+    font-size: 13.5px;
+}
+
+.paragraph-container b{
+    font-size: 30px;
+}
+

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags | Brother Nature</title>
+
+    <!-- Importing Fonts & Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Inter|Libre+Baskerville|Open+Sans|Montserrat|Roboto|Lato|Josefin+Sans">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- External CSS-->
+    <link rel="stylesheet" type="text/css" href="media/header1.css" />
+    <link rel="stylesheet" type="text/css" href="media/footer.css" />
+    <link rel="stylesheet" type="text/css" href="media/tags/tagsCSS.css" />
+	
+	<!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="media/bhIcon.png">
+</head>
+<body>
+
+	<div class="backToTop">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">
+            <i class="fa fa-arrow-circle-up"></i>
+        </button>
+    </div>
+
+<!-- HEADER -->
+    <div class="header-container">
+		<div class="logo-url-container">
+            <a href="home.html"><img src="media/logo.png"></a>
+            
+            
+			<div class="url-container">
+				<a href="home.html">Home</a>
+				<a href="greenpower.html">Green Power</a>
+				<a href="news.html">News & Trends</a>
+				<a href="tags.html"  class="active">Tags</a>
+				<a href="aboutUs.html">About Us</a>
+			 </div>
+		</div>
+
+
+		<div class="icons-container">
+		    <a href="#"><i class="fab fa-facebook"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+		    <a href="#"><i class="fab fa-twitter"></i></a>
+		</div>	
+
+	</div>
+<!-- END OF HEADER-->
+
+
+
+
+
+<!-- START OF ARTICLE-->
+    <h1 id="tagsTitle">Tags</h1>
+	<hr id="tagsTitleHr">
+
+    <div class="tags">
+
+        <div class="searchTag">
+            <form action="/action_page.php" class="search">
+                <input type="text" class="searchBar" placeholder="Explore topics you're interested in.." name="search">
+                <button type="submit" class="searchButton"><i class="fa fa-search"></i></button>
+              </form>
+        </div>
+
+        <div class="tagLists">
+            <div class="tagCol1">
+                <a href="#" class="tagLinks b"><i class="fa fa-recycle"></i>Green Living</a><br>
+                <a href="#" class="tagLinks b"><i class='fas fa-water'></i>Ocean</a><br>
+                <a href="#" class="tagLinks b"><i class='fas fa-bullhorn'></i>Announcement</a><br>
+                <a href="#" class="tagLinks b"><i class="fa fa-leaf"></i>Vegan</a><br>
+            </div>
+            <div class="tagCol2">
+                <a href="#" class="tagLinks b"><i class='fas fa-carrot'></i>Vegetarian</a><br>
+                <a href="#" class="tagLinks b"><i class="fa fa-tractor"></i>Farming & Agriculture</a><br>
+                <a href="#" class="tagLinks b"><i class="fa fa-paw"></i>Animals</a><br>
+                <a href="#" class="tagLinks b"><i class="fa fa-seedling"></i>Others</a><br>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+<!--END OF ARTICLE-->
+
+
+
+
+
+
+
+
+<!-- FOOTER -->
+	<div class="footer-container">
+		<div class="footer-text">
+			<h1>It’s easy being green - Reduce, Reuse, Recycle.</h1>
+			<p>We're a diverse and passionate team that takes ownership of your design and empower you to<br>
+			execute the roadmap. We stay on our feet and truly enjoy delivering great work.</p>
+		</div>
+
+		<div class="buttons-container">
+			<a href="home.html"><button class="buttons">Home</button></a>
+			<a href="#"><button class="buttons">Contact</button></a>
+			<a href="#"><button class="buttons">Community</button></a>
+		</div>
+
+
+		<div class="newsletter-container">
+			<div class="newsletter">
+                <h1>Newsletter Sign Up</h1>
+			</div>
+			
+			<div class="form-container">
+				<div class="form">
+					<form>
+		                <input class="email" type="text" placeholder="Enter your Email here...">
+		                <button class="submit" type="submit">Submit</button>
+	                </form>
+				</div>	
+			</div>	
+		</div>	
+
+        
+        <div class="last-container">
+        	<div class="logo-footer">
+        		<img src="media/logoDark.png">
+        	</div>
+
+        	<div class="reserved">
+        		<p>© 2022 Brother Nature. All Rights Reserved.</p>
+        	</div>
+
+        	<div class="icons-footer">
+				<a href="#"><i class="fab fa-facebook"> </i></a>
+				<a href="#"><i class="fab fa-instagram"> </i></a>
+				<a href="#"><i class="fab fa-twitter"> </i></a>
+        	</div>	
+        </div>	
+	</div>
+<!-- END OF FOOTER -->
+	<div class="javascript">
+        <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+        </script>
+    </div>
+</body>
+</html>

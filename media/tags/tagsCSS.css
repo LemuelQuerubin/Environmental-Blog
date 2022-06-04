@@ -1,0 +1,123 @@
+.tags {
+    align-content: center;
+    text-align: center;
+    height: 500px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+/*--------- "Tags" Title -------------*/
+#tagsTitle {
+    font-size: 50px;
+    font-family: Alfa Slab One;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#tagsTitleHr {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 5px solid #457d58;
+}
+
+/* ------------ Search Bar ---------------- */
+.searchTag {
+    border: 2px solid #272727;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40px;
+}
+
+.search{
+    width: 100%;
+}
+
+input[type=text].searchBar {
+    padding: 6px;
+    font-size: 15px;
+    width: 85%;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+button.searchButton {
+    padding: 6px;
+    font-size: 17px;
+    color: #272727;
+    background-color: #fff;    
+    margin-top: 4px;
+    margin-left: 1px;
+    width: 6%;
+    height: auto;
+    float: left;
+    border: none;
+    border-radius: 30px;
+}
+
+/* ------------ Tag Links ---------------- */
+.tagLists {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: left;
+}
+
+a:link.tagLinks {
+    padding: 20px;
+    width: 90%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+a.tagLinks {
+    font-family: Inter;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 20px;    
+}
+
+.b{
+    background-color: #272727;
+    color: #f6f6e9; 
+    border: 1px solid #272727;  
+}
+
+.tagCol1 {
+    width: 100%;
+}
+
+.tagCol2 {
+    width: 100%;
+}
+
+.fa-carrot, .fa-water, .fa-recycle, .fa-bullhorn, .fa-leaf, .fa-tractor, .fa-paw, .fa-seedling {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+a:hover.y{
+    background-color: #272727;
+    color:#f6f6e9;
+    transition: 0.3s;
+}
+
+a:hover.b{
+    background-color: #f6f6e9;
+    border: 1px solid #f6f6e9;
+    color:#272727;
+    transition: 0.3s;
+}
+

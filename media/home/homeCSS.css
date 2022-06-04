@@ -1,0 +1,276 @@
+/* UNIVERSAL CSS CLASS */
+.home {
+    font-family: Inter;
+}
+
+.gray {
+    color: gray;
+    font-weight: 200;
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+
+/* --------- MAIN FEATURED ARTICLE ---------------- */
+/*.mainArticle{
+    margin-left: 40px;
+    margin-right: 40px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.mainArticle img {
+    max-width: 100%;      
+}
+
+.article1InsideContainer {  
+    background-color: #f6f6e9;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 40px;
+    width: 400px;
+    height: 465px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; 
+}
+*/
+
+.mainArticle1{
+    width:95%;
+    margin:auto;
+    height: 70vh;
+    background-image: url("home1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.article1InsideContainer {
+    width: 32%;
+    margin-left: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #f6f6e9; 
+}
+
+.articleContent {
+    padding: 25px;
+}
+
+.featArticleTitle{
+    font-family: Alfa Slab One;
+    color: #5D8359;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.articleText {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* --------- MAIN FEATURED ARTICLE NO.2 ---------------- */
+/*
+.article2InsideContainer {  
+    background-color: #f6f6e9;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 30px;
+    margin-right: 60px;
+    width: 400px;
+    height: 440px;
+    border-radius: 20px; 
+}
+*/
+.mainArticle2{
+    width:95%;
+    margin:auto;
+    height: 70vh;
+    background-image: url("home2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 10px 0px; 
+}
+
+.article2InsideContainer {
+    width: 32%;
+    margin-left: auto;
+    margin-right: 40px;
+    border-radius: 30px;
+    background-color: #f6f6e9;
+}
+
+.article2Content {
+    padding: 25px;
+}
+
+.top {
+    margin-top: 30px;
+}
+/* --------- Other Featured Posts---------------- */
+.featPosts {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#featPostContent {
+    margin: auto;
+}
+
+#featTitle {
+    font-family: Alfa Slab One;
+    font-weight: 500;
+    font-size: 33px;
+    text-align: center !important;
+    align-content: center !important;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#hrCSS {
+    width: 100px;
+    margin-top: 0px;
+    margin-bottom: 45px;
+    border-top: 4px solid black; 
+}
+
+hr {
+    margin: auto;
+}
+
+.featPostBlock {
+    width: 900px;
+    margin-bottom: 30px;
+    display: flex; 
+    align-items: center;
+}
+
+.featPostBlock img{
+    max-width: 300px;
+    max-height: 350px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.featPostTitle {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: Libre Baskerville;
+}
+
+.bott{
+    margin-bottom: 13px;
+}
+.featPostContent {
+    margin-left: 30px;
+}
+
+/* --------- Other  Posts ---------------- */
+.otherPosts {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.otherPostsBlock {
+    width: 900px;
+    margin-bottom: 30px;
+    display: flex; 
+    align-items: center;
+}
+
+.otherPostsBlock img{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.otherPostsTitle {
+    margin-top: 5px;
+    font-family: Libre Baskerville;
+}
+
+.otherPostsBlockContent {
+    margin-left: 30px;
+}
+
+.marginZero {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.otherPostsBlockContentText {
+    font-size: 15px;
+}
+
+/* --------- Tags ---------------- */
+.tagsSide {
+    margin-left: 105px;
+}
+
+.tagsSide li {
+    margin-bottom: 30px;
+}
+
+.tagsTitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+/* --------- Links CSS ---------------- */
+a:link.readMoreButton, a:visited.readMoreButton {
+    text-decoration: none;
+    color: #f6f6e9;
+}
+
+/* -------- For Main Articles --------- */
+a:link.linkBG {
+    background-color: #5D8359;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 5px;
+    transition: 0.2s;
+}
+
+.fa-leaf, a:hover.fa-leaf{
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+a:hover.linkBG {
+    background-color: #f6f6e9;
+    color: #5D8359;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 5px;
+    border: 1px solid #5D8359;
+    vertical-align: middle;
+    transition: 0.5s;
+}
+
+/* -------- For Other Featured Posts & Tags --------- */
+
+a:link.featPostContentLink, a:visited.featPostContentLink {
+    text-decoration: none;
+    color: #5D8359;
+    transition: 0.2s;
+}
+
+a:hover.featPostContentLink {
+    font-weight: 900;
+    font-size: 19px;
+    transition: 0.2s;
+}
